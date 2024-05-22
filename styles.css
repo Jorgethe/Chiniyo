@@ -1,0 +1,158 @@
+/* Estilos básicos para la página de enlaces a redes sociales */
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url('fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    padding: 1rem;
+    position: fixed; /* Fija el header al principio */
+    top: 0; /* Asegura que esté en la parte superior */
+    z-index: 2500; /* Asegura que esté encima de otros elementos */
+}
+
+header h1 {
+    font-size: 20px;
+    margin-right: 20px; /* Ajusta el margen del texto según sea necesario */
+    margin-top: 170px;
+}
+
+main {
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: -2%;
+}
+
+.page-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+.page-text-font {
+    font-family: 'Capriola', sans-serif;
+    text-transform: none;
+    
+}
+
+.page-text-color {
+    color: #ffffff;
+}
+.mt-16{margin-top:16px}
+.text-center{text-align:center}
+/* .page-full-wrap{width:680px;z-index:10;padding-bottom:176px} */
+.display-image{width:150px;border-radius:50%;-o-object-fit:cover;object-fit:cover;padding: 35px;}
+.m-auto{margin:auto}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1rem 0;
+}
+
+ul li a {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto 15px;
+    margin-bottom: 5px;
+    padding: 1rem;
+    font-size: 18px;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left 10px;
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid #0019F6;
+}
+
+.btn-instagram {
+    background-image: url('insta.png');
+    background-size: 43px;
+}
+.btn-instagram:hover{
+    color:#ffffff;
+    background-color:#C13584;
+    border:2px solid;
+    border-color:#ffffff;
+}
+
+.btn-twitch {
+    background-image: url('twitch.png');
+    background-size: 43px;
+}
+.btn-twitch:hover{
+    color:#ffffff;
+    background-color:#6441a5;
+    border:2px solid;
+    border-color:#ffffff;
+}
+
+.btn-youtube {
+    background-image: url('youtube.png');
+    background-size: 43px;
+}
+.btn-youtube:hover{
+    color:#ffffff;
+    background-color:#ff0000;
+    border:2px solid;
+    border-color:#ffffff;
+}
+
+.btn-tiktok {
+    background-image: url('tiktok.png');
+    background-size: 43px;
+}
+.btn-tiktok:hover{
+    color:#ffffff;
+    background-color:#ff0050;
+    border:2px solid;
+    border-color:#ffffff;
+}
+
+.btn-twitter {
+    background-image: url('twitter.png');
+    background-position: -5px;
+}
+.btn-twitter:hover{
+    color:rgb(255, 255, 255);
+    background-color:#00acee;
+    border:2px solid;
+    border-color:#ffffff;
+}
+
+ul li a:hover {
+    transform: scale(1.1);
+}
+
+
+footer {
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+    width: 100%;
+    font-size: 10px;
+    position: fixed;
+    margin-left: 45%;
+    bottom: 0;
+    text-align: center;
+}
+
+
